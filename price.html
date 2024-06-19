@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Price Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+
+    <header>
+        <h1>Project Pricing</h1>
+        <div class="toggle">
+          <label>Yearly </label>
+          <div class="toggle-btn">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label class="sub" id="sub" for="checkbox">
+              <div class="circle"></div>
+            </label>
+          </div>
+          <label> Monthly</label>
+        </div>
+      </header>
+      <div class="cards">
+        <div class="card shadow">
+          <ul>
+            <li class="pack">FREE</li>
+            <li id="basic" class="price bottom-bar" data-price="0" style="color:white">$0</li>
+            <li class="bottom-bar">1 Projects</li>
+            <li class="bottom-bar">5 Team Members</li>
+            <li class="bottom-bar">50 Personal Projects</li>
+            <li class="bottom-bar">5000 Messages</li>
+            <li><button class="btn"><i class="bi bi-bag"></i>&nbsp GET STARTED</button></li>
+          </ul>
+        </div>
+        <div class="card active">
+          <ul>
+            <li class="pack">PREMIUM</li>
+            <li id="professional" class="price bottom-bar" data-price="39.99">$39.99</li>
+            <li class="bottom-bar">5 Projects</li>
+            <li class="bottom-bar">20 Team Members</li>
+            <li class="bottom-bar">100 Personal Projects</li>
+            <li class="bottom-bar">15000 Messages</li>
+            <li><button class="btn active-btn"><i class="bi bi-bag"></i>&nbsp GET STARTED</button></li>
+          </ul>
+        </div>
+        <div class="card shadow">
+          <ul>
+            <li class="pack">PLATINUM</li>
+            <li id="master" class="price bottom-bar" data-price="99.99" style="color:white;">$99.99</li>
+            <li class="bottom-bar">5 Projects</li>
+            <li class="bottom-bar">20 Team Members</li>
+            <li class="bottom-bar">500 Personal Projects</li>
+            <li class="bottom-bar">50000 Messages</li>
+            <li><button class="btn"><i class="bi bi-bag"></i>&nbsp GET STARTED</button></li>
+          </ul>
+        </div>
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
